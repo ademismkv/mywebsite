@@ -1,8 +1,6 @@
 .env
-wp-config.php
 node_modules/
 .DS_Store
 logs/
 conf/
-app/public/wp-config.php
 app/public/.env
