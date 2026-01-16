@@ -11,7 +11,7 @@
             <span class="command-line-text">echo $PAGE_STATUS</span>
         </div>
         <div class="post-content" style="display: none;">
-            <p>bash: page not found. Try searching for something else or return to <a href="<?php echo esc_url( home_url( '/' ) ); ?>">home</a>.</p>
+        <p>bash: page not found. Try searching for something else or return to <a href="<?php echo esc_url( home_url( '/' ) ); ?>">home</a>.</p>
         </div>
     </div>
 

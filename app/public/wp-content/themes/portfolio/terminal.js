@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 feedback.lastElementChild.textContent = 'Message sent successfully!';
             } else {
                 feedback.lastElementChild.textContent = 'Error: ' + (data.message || 'Unknown error');
-            }
+                }
         } catch (error) {
             feedback.lastElementChild.textContent = 'Error: Could not connect to server.';
         }
